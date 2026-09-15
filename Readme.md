@@ -1,8 +1,14 @@
-<!-- ══════════════════════════════════════════════════════════════════════
-     HASAN HIDHAYATHULLA // CYBERPUNK PROFILE README
+<!-- ══════════════════════════════════════════════════════════════════════════
+     HASAN HIDHAYATHULLA // CYBERPUNK PROFILE README  ·  REALTIME BUILD
      PALETTE ▶ cyan #05d9e8 · neon pink #ff0055 · neon green #00ffcc · bg #0d0e15
-     Every URL below was HTTP-200 validated before shipping.
-     ══════════════════════════════════════════════════════════════════════ -->
+
+     ▸ REALTIME ENGINE: the `&v=<12-digit UTC stamp>` tokens below are cache
+       busters. GitHub's image proxy and every metric service cache per URL for
+       12-24h, so the stamp is rotated automatically by
+       .github/workflows/realtime-sync.yml (on every push + every 30 min).
+       Do NOT hand-edit the 12-digit numbers - the workflow owns them.
+     ▸ The LAST_SYNC badge shows the last rotation, so you can see it working.
+     ══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
@@ -14,9 +20,13 @@
 
 <br/>
 
-<!-- ── LIVE STATUS STRIP ── -->
+<!-- ── LIVE STATUS STRIP (komarev is no-store = instant) ── -->
 <img alt="neural visitors" src="https://komarev.com/ghpvc/?username=HasanHidhayathulla&label=NEURAL+VISITORS&color=05d9e8&style=for-the-badge" />
 <img alt="network" src="https://img.shields.io/github/followers/HasanHidhayathulla?label=NETWORK&style=for-the-badge&color=ff0055&logo=github&logoColor=00ffcc" />
+
+<br/>
+
+<img alt="last sync" src="https://img.shields.io/badge/LAST__SYNC-202609150534-0d0e15?style=flat-square&labelColor=05d9e8&logo=statuspage&logoColor=0d0e15" />
 
 </div>
 
@@ -91,24 +101,29 @@
 
 ---
 
-### ⟨ SYSTEM METRICS // LIVE TELEMETRY ⟩
+### ⟨ SYSTEM METRICS // REALTIME TELEMETRY ⟩
 
 <div align="center">
 
-<img height="165" alt="GitHub stats" src="https://gh-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true" />
-<img height="165" alt="Top languages" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true" />
+<img height="165" alt="GitHub stats" src="https://gh-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609150534" />
+<img height="165" alt="Top languages" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609150534" />
 
 <br/>
 
-<img alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com/?user=HasanHidhayathulla&theme=synthwave&hide_border=true" />
+<img alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com/?user=HasanHidhayathulla&theme=synthwave&hide_border=true&v=202609150534" />
+
+<!-- ▸ OPTIONAL: after adding workflows/streak-svg.yml, swap the line above for the
+     committed local SVG (raw.githubusercontent serves it with max-age=300 = ~5 min):
+<img alt="Streak stats" src="profile/streak.svg" />
+-->
 
 </div>
 
-<!-- ── FALLBACK: swap the two cards above back to the canonical endpoints
-     once the public instance is serving again (it is currently paused):
-<img src="https://github-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true" />
-── -->
+<!-- ▸ FALLBACK: the canonical instance is currently paused (HTTP 503). Once it is
+     serving again, these two lines are drop-in replacements for the cards above:
+<img src="https://github-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609150534" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609150534" />
+-->
 
 ---
 
@@ -126,6 +141,7 @@
 | **SIDE QUEST** | Competitive programming — student for life time |
 | **OPERATING MODE** | Build in public · open to collaboration |
 | **STACK SIGNATURE** | PHP · JavaScript · TypeScript · HTML · CSS · C |
+| **TELEMETRY** | Live — rotated by GitHub Actions every 30 minutes |
 
 </details>
 
