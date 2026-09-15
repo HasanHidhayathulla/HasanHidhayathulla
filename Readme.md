@@ -16,7 +16,7 @@
 <img width="100%" alt="SYSTEM_ONLINE // HASAN_HIDHAYATHULLA" src="https://capsule-render.vercel.app/api?type=waving&color=0:05d9e8,100:ff0055&height=200&section=header&text=SYSTEM_ONLINE%20//%20HASAN_HIDHAYATHULLA&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=38" />
 
 <!-- ── TYPING SUBROUTINE ── -->
-<img alt="role ticker" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=05D9E8&center=true&vCenter=true&width=620&lines=Cyberpunk+Developer+%7C%7C+Software+Architect;Competitive+Programmer;Building+futuristic+software+systems" />
+<img alt="role ticker" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=05D9E8&center=true&vCenter=true&width=620&lines=Software+Architect;Competitive+Programmer;Building+futuristic+software+systems" />
 
 <br/>
 
@@ -132,16 +132,16 @@
 
 <br/>
 
-| FIELD | VALUE |
-|---|---|
-| **CODENAME** | Hasan Hidhayathulla |
-| **CLEARANCE** | Cyberpunk Developer / Software Architect |
-| **GRID SECTOR** | Sri Lanka |
+| FIELD                 | VALUE                                                                 |
+| --------------------- | --------------------------------------------------------------------- |
+| **CODENAME**          | Hasan Hidhayathulla                                                   |
+| **CLEARANCE**         | Cyberpunk Developer / Software Architect                              |
+| **GRID SECTOR**       | Sri Lanka                                                             |
 | **PRIMARY DIRECTIVE** | Craft high-performance web applications & futuristic software systems |
-| **SIDE QUEST** | Competitive programming — student for life time |
-| **OPERATING MODE** | Build in public · open to collaboration |
-| **STACK SIGNATURE** | PHP · JavaScript · TypeScript · HTML · CSS · C |
-| **TELEMETRY** | Live — rotated by GitHub Actions every 30 minutes |
+| **SIDE QUEST**        | Competitive programming — student for life time                       |
+| **OPERATING MODE**    | Build in public · open to collaboration                               |
+| **STACK SIGNATURE**   | PHP · JavaScript · TypeScript · HTML · CSS · C                        |
+| **TELEMETRY**         | Live — rotated by GitHub Actions every 30 minutes                     |
 
 </details>
 
@@ -158,6 +158,7 @@
 <br/>
 
 <!-- ▼ EDIT ME ▶ replace the mailto address below with your real email address ▼ -->
+
 <a href="mailto:HasanHidhayathulla@users.noreply.github.com"><img alt="Email" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00ffcc" /></a>
 
 </div>

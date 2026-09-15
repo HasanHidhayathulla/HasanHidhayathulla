@@ -1,0 +1,67 @@
+name: realtime-sync
+
+# Keeps the external metric widgets live by rotating a cache-buster stamp in
+# README.md. Every third-party widget caches its response (12h-24h) and GitHub's
+# Camo image proxy caches per URL, so changing the URL is what forces a refetch.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes (UTC); GitHub may delay under load
+  push: # also refresh on any human edit, so the profile is never stale
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: realtime-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Rotate cache-buster stamps
+        run: |
+          python3 - <<'PY'
+          import datetime
+          import pathlib
+          import re
+          import sys
+
+          TARGET = pathlib.Path("README.md")
+          STAMP = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M")
+
+          WIDGET = re.compile(r"([?&]v=)\d{12}(?!\d)")
+          SYNC_BADGE = re.compile(r"(LAST__SYNC-)\d{12}(?!\d)")
+
+          if not TARGET.is_file():
+              print(f"ERROR: {TARGET} not found")
+              sys.exit(1)
+
+          original = TARGET.read_text(encoding="utf-8")
+          updated = WIDGET.sub(lambda m: m.group(1) + STAMP, original)
+          updated = SYNC_BADGE.sub(lambda m: m.group(1) + STAMP, updated)
+          targets = len(WIDGET.findall(original)) + len(SYNC_BADGE.findall(original))
+
+          if updated == original:
+              print(f"STAMP_UNCHANGED stamp={STAMP} targets={targets}")
+          else:
+              TARGET.write_text(updated, encoding="utf-8")
+              print(f"STAMP_UPDATED stamp={STAMP} targets={targets}")
+          PY
+
+      - name: Commit only when a stamp actually changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No stamp change this run - nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(realtime): rotate metric cache-buster [skip ci]"
+          git push
