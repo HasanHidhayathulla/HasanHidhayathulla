@@ -26,7 +26,7 @@
 
 <br/>
 
-<img alt="last sync" src="https://img.shields.io/badge/LAST__SYNC-202609192057-0d0e15?style=flat-square&labelColor=05d9e8&logo=statuspage&logoColor=0d0e15" />
+<img alt="last sync" src="https://img.shields.io/badge/LAST__SYNC-202609192252-0d0e15?style=flat-square&labelColor=05d9e8&logo=statuspage&logoColor=0d0e15" />
 
 </div>
 
@@ -105,12 +105,12 @@
 
 <div align="center">
 
-<img height="165" alt="GitHub stats" src="https://gh-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192057" />
-<img height="165" alt="Top languages" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192057" />
+<img height="165" alt="GitHub stats" src="https://gh-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192252" />
+<img height="165" alt="Top languages" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192252" />
 
 <br/>
 
-<img alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com/?user=HasanHidhayathulla&theme=synthwave&hide_border=true&v=202609192057" />
+<img alt="Streak stats" src="https://github-readme-streak-stats.herokuapp.com/?user=HasanHidhayathulla&theme=synthwave&hide_border=true&v=202609192252" />
 
 <!-- ▸ OPTIONAL: after adding workflows/streak-svg.yml, swap the line above for the
      committed local SVG (raw.githubusercontent serves it with max-age=300 = ~5 min):
@@ -121,8 +121,8 @@
 
 <!-- ▸ FALLBACK: the canonical instance is currently paused (HTTP 503). Once it is
      serving again, these two lines are drop-in replacements for the cards above:
-<img src="https://github-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192057" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192057" />
+<img src="https://github-readme-stats.vercel.app/api?username=HasanHidhayathulla&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192252" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HasanHidhayathulla&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1440&v=202609192252" />
 -->
 
 ---
